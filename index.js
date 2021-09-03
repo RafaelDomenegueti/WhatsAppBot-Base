@@ -42,6 +42,6 @@ ws.on('message', msg => {
 		msg.reply('pong');
 	}
 
-	scripts.scripts(msg);
+	scripts.scripts(msg, ws, MessageMedia);
 	
 })
